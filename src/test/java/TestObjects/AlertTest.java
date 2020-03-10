@@ -44,7 +44,7 @@ public class AlertTest {
 
     @Test
     public void MergeConflictDemo(){
-        // when 2+ people change the same line, git doesn't know what to do
+        // This is my conflict change
     }
 
 }

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="369282a6-98d1-4341-b67f-80069ed929f0" name="Default Changelist" comment="" />
+    <list default="true" id="369282a6-98d1-4341-b67f-80069ed929f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +16,14 @@
         <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WfeRKFMlfEFsLwAZuRCRJYZwNR" />
   <component name="ProjectViewState">
@@ -150,7 +160,33 @@
       <option name="presentableId" value="Default" />
       <updated>1579545067190</updated>
     </task>
+    <task id="LOCAL-00001" summary="This is the best code ever">
+      <created>1583863774221</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583863774221</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="This is the best code ever" />
+    <option name="LAST_COMMIT_MESSAGE" value="This is the best code ever" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="79" width="1720" height="904" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1581443747129">
@@ -159,6 +195,15 @@
     <state x="100" y="79" width="1720" height="904" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1000@0.0.1920.1000" timestamp="1581443747129" />
     <state x="100" y="79" width="1720" height="901" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.997@0.0.1920.997" timestamp="1580835717552" />
     <state x="100" y="100" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1920.974@0.23.1920.974" timestamp="1580835670312" />
+    <state x="308" y="43" key="CommitChangelistDialog2" timestamp="1583863773878">
+      <screen x="0" y="0" width="1440" height="833" />
+    </state>
+    <state x="308" y="43" key="CommitChangelistDialog2/0.0.1440.833@0.0.1440.833" timestamp="1583863773878" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1583864347496">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.833@0.0.1440.833" timestamp="1583863970591" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.23.1440.810@0.23.1440.810" timestamp="1583864347496" />
     <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1582049915485">
       <screen x="0" y="0" width="1440" height="835" />
     </state>
@@ -232,6 +277,14 @@
     </state>
     <state x="498" y="171" key="Maven.ArtifactSearchDialog/0.23.1920.965@0.23.1920.965" timestamp="1579553816872" />
     <state x="498" y="172" key="Maven.ArtifactSearchDialog/0.23.1920.969@0.23.1920.969" timestamp="1579720538937" />
+    <state x="435" y="167" key="RollbackChangesDialog" timestamp="1583863608533">
+      <screen x="0" y="0" width="1440" height="833" />
+    </state>
+    <state x="435" y="167" key="RollbackChangesDialog/0.0.1440.833@0.0.1440.833" timestamp="1583863608533" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1583863820926">
+      <screen x="0" y="0" width="1440" height="833" />
+    </state>
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.833@0.0.1440.833" timestamp="1583863820926" />
     <state x="462" y="289" key="com.intellij.ide.util.TipDialog" timestamp="1582652615168">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
