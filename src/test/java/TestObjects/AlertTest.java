@@ -17,7 +17,7 @@ import static org.hamcrest.core.IsEqual.equalTo;
 public class AlertTest {
 
     private AlertsPage alert;
-    private WebDriver driver;
+    public WebDriver driver;
 
     @Before
     public void Setup(){
