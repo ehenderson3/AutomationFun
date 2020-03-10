@@ -53,7 +53,7 @@ public class AlertTest {
     @Test
     public void MergeConflictDemo(){
         // doesn't matter what is in the method
-        // if 3+ funny people are modifying the same line
+        // if 2+ people are modifying the same line
         // it will likely result in a merge conflict
     }
 
