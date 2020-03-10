@@ -44,7 +44,7 @@ public class AlertTest {
 
     @Test
     public void MergeConflictDemo(){
-        // This is my third change
+        // Change using a branch
     }
 
 }
