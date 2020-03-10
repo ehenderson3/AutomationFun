@@ -1,18 +1,10 @@
 package TestObjects;
 
 import PageObjects.AlertsPage;
-import PageObjects.LoginPage;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.core.Is.is;
-import static org.hamcrest.core.IsEqual.equalTo;
 
 public class AlertTest {
 
@@ -52,9 +44,7 @@ public class AlertTest {
 
     @Test
     public void MergeConflictDemo(){
-        // doesn't matter what is in the method
-        // if 2+ people are modifying the same line
-        // it will likely result in a merge conflict
+        // This is my second change
     }
 
 }
