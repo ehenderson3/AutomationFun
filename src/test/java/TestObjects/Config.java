@@ -1,12 +1,14 @@
 package TestObjects;
 
 public interface Config {
-    public static final String baseUrl        = System.getProperty("baseUrl", "http://the-internet.herokuapp.com");
-    public static final String browser        = System.getProperty("browser", "chrome");
-    public static final String host           = System.getProperty("host", "localhost");
-    public static final String browserVersion = System.getProperty("browserVersion", "50.0");
-    public static final String platform       = System.getProperty("platform", "Windows 10");
-    public static final String sauceUser      = System.getenv("SAUCE_USERNAME");
-    public static final String sauceKey       = System.getenv("SAUCE_ACCESS_KEY");
+    final String baseUrl            = System.getProperty("baseUrl", "http://staffing-manager.dev.surgeforward.com/");
+    //final String baseUrl            = System.getProperty("baseUrl", "https://comsearch.dev.surgeforward.com");
+    //final String baseUrl            = System.getProperty("baseUrl", "https://legosandbox.com");
+    final String browser            = System.getProperty("browser", "chrome");
+    final String host               = System.getProperty("host","localhost");// "localhost" or browserstack
+    final String browserVersion     = System.getProperty("browserVersion","54");
+    final String platform           = System.getProperty("platform","Windows");
+    final String os_version         = System.getProperty("os_version","7");
+    final String resolution         = System.getProperty("resolution","1920 x 1080");
 
 }
