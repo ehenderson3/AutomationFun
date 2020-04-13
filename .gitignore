@@ -1,0 +1,11 @@
+.idea/*
+.DS_Store
+target/*
+maven/*/src
+maven/target
+maven/*/target
+maven/.idea
+maven/*.iml
+maven/*/*.iml
+maven-metadata-.xml
+maven-metadata-.xml.sha1
