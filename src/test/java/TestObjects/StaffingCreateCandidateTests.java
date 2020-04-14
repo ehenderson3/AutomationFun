@@ -1,12 +1,11 @@
 package TestObjects;
 
+import PageObjects.CommonPage;
+import PageObjects.LoginPage;
 import PageObjects.StaffingRecruiterDashPage;
 import PageObjects.StaffingCandidatesPage;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -18,6 +17,9 @@ public class StaffingCreateCandidateTests {
 
     private StaffingRecruiterDashPage recruiter;
     private StaffingCandidatesPage candidates;
+    private LoginPage log;
+    private CommonPage common;
+
 
     private WebDriver driver;
 
@@ -27,11 +29,15 @@ public class StaffingCreateCandidateTests {
         driver = new ChromeDriver();
         recruiter = new StaffingRecruiterDashPage(driver);
         candidates = new StaffingCandidatesPage(driver);
+        log = new LoginPage(driver);
+        common = new CommonPage(driver);
 
     }
 
     @Test
     public void CreateCandidate(){
+
+        //Login
 
         //Select the Recruiter tab
 
@@ -48,9 +54,6 @@ public class StaffingCreateCandidateTests {
         //Validate that the candidate was created
 
     }
-
-
-
 }
 
 
